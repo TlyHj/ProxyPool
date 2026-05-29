@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.runtime/
+.idea/
+
+# Local settings may contain subscription URLs and API keys.
+config.json
+
+# Generated mihomo / temp artifacts.
+*.log
+*.tmp
