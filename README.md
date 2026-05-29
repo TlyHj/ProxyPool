@@ -66,3 +66,6 @@ PROXYPOOL_HUNTER_KEY
 ```
 
 仅用于学习和自用测试。
+
+<!-- readme-refresh-1780067011 -->
+
