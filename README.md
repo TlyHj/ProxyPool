@@ -1,8 +1,8 @@
 ﻿# ProxyPool
 
-基于 [fir-proxy](https://github.com/11firefly11/fir-proxy) 二开的图形化代理池。
+基于 [fir-proxy](https://github.com/11firefly11/fir-proxy) 的图形化代理池进行二开。
 
-本项目主要新增订阅转换、空间测绘搜索、逐请求轮换、自动重测，并优化了代理验证、失败代理处理和轮换稳定性。
+新增订阅转换、空间测绘搜索、逐请求轮换、自动重测，并优化了代理验证、失败代理处理和轮换稳定性。
 
 本地代理端口：
 
@@ -26,7 +26,7 @@ python main.py
 
 订阅转换支持 Clash / V2Ray / SS / Trojan / VLESS / Hysteria2 等常见节点格式。
 
-该功能依赖 Docker 和 mihomo。使用前先确认 Docker 可用：
+该功能依赖 Docker 和 mihomo 镜像。环境无 Docker 情况下不可用，使用前先确认 Docker 可用：
 
 ```bash
 docker version
