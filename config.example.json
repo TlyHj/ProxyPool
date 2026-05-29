@@ -1,0 +1,30 @@
+{
+    "general": {
+        "validation_threads": 100,
+        "failure_threshold": 3,
+        "auto_retest_enabled": false,
+        "auto_retest_interval": 10,
+        "builtin_proxy_enabled": false,
+        "builtin_proxy": ""
+    },
+    "auto_fetch": {
+        "fofa": {
+            "enabled": false,
+            "key": "",
+            "query": "protocol==\"socks5\" && country==\"CN\" && banner=\"Method:No\"",
+            "size": 500
+        },
+        "hunter": {
+            "enabled": false,
+            "key": "",
+            "query": "app.name=\"SOCKS5\"",
+            "size": 100
+        }
+    },
+    "subscription": {
+        "enabled": false,
+        "urls": [],
+        "output_http": false,
+        "output_socks5": true
+    }
+}
